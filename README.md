@@ -1,14 +1,14 @@
 # cpi
-A cli for copying files with ignore-files applied.
+A command-line tool for copying files with ignore-files applied.
 
 Currently supported ignore-file is `.gitignore`.
 
-## install
+## Install
 ```sh
 cargo install cpi
 ```
 
-## usage
+## Usage
 
 ```sh
 cpi ./project ./project-copy
@@ -17,7 +17,7 @@ cpi ./project ./project-copy
 cpi ./project ./project-copy --no-gitignore
 ```
 
-## to-do
-[ ] support compressed output
-[ ] support passing ignore folder in cli
+## ToDo
+[ ] support compressed output  
+[ ] support passing ignore folder in cli  
 [ ] support overriding dest folder if existed
