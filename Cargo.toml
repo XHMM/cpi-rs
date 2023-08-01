@@ -1,0 +1,18 @@
+[package]
+name = "cpi"
+version = "0.1.0"
+license = "MIT"
+description = "A cli for copying files with ignore-files applied"
+homepage = "https://github.com/XHMM/cpi-rs"
+documentation = "https://github.com/XHMM/cpi-rs"
+repository = "https://github.com/XHMM/cpi-rs"
+readme = "README.md"
+edition = "2021"
+keywords = ["copy", "cli"]
+
+[dependencies]
+clap = "4.3.19"
+env_logger = "0.10.0"
+ignore = "0.4.20"
+log = "0.4.19"
+pathdiff = "0.2.1"
