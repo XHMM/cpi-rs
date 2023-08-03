@@ -1,4 +1,6 @@
 # cpi
+[![Crates.io](https://img.shields.io/crates/v/cpi.svg)](https://crates.io/crates/cpi)
+
 A command-line tool for copying files with ignore-files applied.
 
 Currently supported ignore-file is `.gitignore`.
