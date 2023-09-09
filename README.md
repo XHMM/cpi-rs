@@ -1,5 +1,7 @@
 # cpi
 
+[![Crates.io](https://img.shields.io/crates/v/cpi.svg)](https://crates.io/crates/cpi)
+
 A command-line tool for copying files without ignored files.
 
 Currently supported ignore-file config is `.gitignore`.
@@ -27,4 +29,4 @@ cpi ./project ./project-copy -f
 
 ## To-Do
 
-[ ] support passing ignore folder in cli
+- [ ] support passing ignore folder in cli
